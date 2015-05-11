@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.18)  11 MAY 2015 14:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.18)  11 MAY 2015 14:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -569,10 +569,10 @@ Package pdftex.def Info: eule.png used on input line 7.
  [4 <./eule.png>]) [5] (./ThesisProposal.bbl) [6]
 (./ThesisProposal.aux) ) 
 Here is how much of TeX's memory you used:
- 7988 strings out of 493308
- 105346 string characters out of 6137816
+ 7990 strings out of 493308
+ 105362 string characters out of 6137816
  329481 words of memory out of 5000000
- 11252 multiletter control sequences out of 15000+600000
+ 11254 multiletter control sequences out of 15000+600000
  14364 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,5n,38p,3223b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -583,7 +583,7 @@ sfonts/cm/cmcsc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmti12.pfb>
-Output written on ThesisProposal.pdf (9 pages, 113466 bytes).
+Output written on ThesisProposal.pdf (9 pages, 114728 bytes).
 PDF statistics:
  63 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
