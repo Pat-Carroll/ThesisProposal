@@ -24,7 +24,7 @@
 
 % Arrows with text / superscript
 \usepackage{amsmath}
-
+\usepackage{tipa}
 % Different font - something like Arial
 %\usepackage{mathptmx}
 
@@ -79,15 +79,17 @@
 % Include the title page (modify title.tex!)
 \input{title.tex}
 
-\thispagestyle{empty}
+\setcounter{page}{1}		% Seitenzähler auf 1 setzen %
+%\pagestyle{fancy}				% fancy header style
+\pagenumbering{arabic}
+%\thispagestyle{empty}
 \begin{abstract}
 \setlength{\parskip}{2ex plus 0.5ex minus 0.2ex}
 
 % Please put \noindent before each paragraph of the abstract!
-\noindent Second language learners often struggle with correctly perceiving and producing vowels contained within the vowel inventory of their target language.  These errors are hypothesized to be caused by interference from the native language phonology of the learners which prevents them from correctly forming new vowel categories for one or more of the vowel in the target language \citep{flege1995second}. For learners of German, this is a particularly common phenomenon, due to the fact that the German vowel inventory is relatively large and many vowel categories are separated by very slight changes in spectral or durational information. \citep{patzold1997acoustic} This means that learners  with sparser L1 vowel systems must attempt to form many new vowel categories, often in a region of the vowel space where new vowels could easily be misperceived or assimilated to existing L1 categories \citep{}. In order to assist L2 German learners in the correct formation of new vowel categories, I propose a Computer Assisted Pronunciation Training (CAPT) tool to providing visual feedback describing the differences between German vowels. The CAPT tool will be based on a previous proof of concept system \citep{} which displays formant and duration information for model German utterances, as well as utterances produced by the learner.
+\noindent Second language (L2) learners often struggle with correctly perceiving and producing vowels in their target language.  These errors are believed to be caused by interference from the native language phonology of the learners \citep{flege1995second, and more}, which prevents them from correctly forming new phonological categories for one or more of the vowel in the target language. In the case of L2 German learners, this is a phenomenon of particular concern due to the relatively large German vowel inventory, which includes many vowel categories which are separated by very slight changes in spectral and/or durational information. \citep{patzold1997acoustic} This dense vowel space presents a challenge for learners with a much sparser L1 vowel system, as they must attempt to form many new vowel categories in regions of the vowel space where new vowels could easily be misperceived or assimilated to existing L1 categories \citep{}. In order to assist L2 German learners in the correct formation of new vowel categories, a Computer Assisted Pronunciation Training (CAPT) tool is proposed to providing visual feedback describing the most important differences between German vowels. The research, development, and testing of this Pronunciation Training tool is thus proposed as the topic of this masters thesis. 
 
-\noindent  The continued develop of the CAPT tool will serve as the central project for the Masters Thesis.  Planned improvements to the system architecture include vowel recognition using forced alignment, and a system to customize vowel category targets based on the individual acoustic vowel space of each user. The user interface will also undergo improvements to be more clearly readable, and to include supplementary information about tongue position. The research fields contributing to the development of the tool will be divided into 3 broad categories: 1) Second language learning and pedagogy. 2) Acoustic  analysis of the vowel space. 3) Design and implementation of CAPT systems. An extensive literature search will be conducted in these three fields to provide a solid theoretical background to the development of features and interfaces for the tool. After development and testing of the CAPT system, an experiment to test it's effectiveness will be designed and carried out provided a sufficiently large group of subjects can be organized.  
-
+\noindent  The preparatory stage of the Thesis will consist of a survey of relevant literature in order to provides sound theoretical motivation for the functionality and design of the CAPT tool. The next stage of the thesis will be development of the tool itself, which will build upon a proof of concept system by Carroll, Trouvain and Zimmerer \citep{}. Improvements to the proof of concept system to be performed during the thesis include: tracking users progress, vowel recognition with forced alignment, and a system to customize vowel category targets based on the individual use vowel space. The user interface will also undergo improvements to be more visually intuitive, and to include supplementary information about tongue and jaw position. The third stage of the thesis will be focused on testing the effectiveness CAPT system. Therefore, an experiment will be designed to determine if the CAPT system performs better than control groups receiving no language instruction, or standard classroom language instruction.  If sufficient subjects can be obtained for a live trial, the experiment will then be carried out.
 
 \end{abstract}
 \newpage
@@ -98,15 +100,15 @@
 %\newpage
 
 % Start of content
-\setcounter{page}{1}		% Seitenzähler auf 1 setzen %
-%\pagestyle{fancy}				% fancy header style
-\pagenumbering{arabic}
-\newpage
-\input{section1}
 
 \newpage
-\input{section2}
+\input{literatureSearch}
 
+\input{SystemDevelopment}
+
+\input{Testing}
+
+\input{Conclusion}
 
 % REFERENCES
 \newpage

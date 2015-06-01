@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.18)  18 MAY 2015 12:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.18)  29 MAY 2015 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -139,6 +139,19 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tipa/tipa.sty
+Package: tipa 2002/08/08 TIPA version 1.1
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ot1enc.def
+File: ot1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding OT1 on input line 43.
+)))
 (/usr/local/texlive/2013/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -365,6 +378,13 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
 LaTeX Font Info:    ... okay on input line 77.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
 LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 77.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 77.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tipa/t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 77.
 
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -557,55 +577,88 @@ Non-PDF special ignored!
 Non-PDF special ignored!{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/upd
 map/pdftex.map} <./eule.png>])
 
-Package natbib Warning: Citation `flege1995second' on page 1 undefined on input
- line 87.
+Package natbib Warning: Citation `and more' on page 1 undefined on input line 9
+0.
+
+[1] (./literatureSearch.tex
+
+Package natbib Warning: Citation `zimmerer pending publication' on page 2 undef
+ined on input line 8.
 
 
-Package natbib Warning: Citation `patzold1997acoustic' on page 1 undefined on i
-nput line 87.
+Underfull \hbox (badness 10000) in paragraph at lines 8--12
 
-[1] (./section1.tex
+ []
 
-Package natbib Warning: Citation `hirschfeld1994untersuchungen' on page 1 undef
-ined on input line 3.
+[2]
 
-
-Package natbib Warning: Citation `Zimmerer' on page 1 undefined on input line 3
+Package natbib Warning: Citation `Jongman' on page 3 undefined on input line 16
 .
 
-[1]) [2] (./section2.tex <eule.png, id=24, 117.43875pt x 125.268pt>
-File: eule.png Graphic file (type png)
 
-<use eule.png>
-Package pdftex.def Info: eule.png used on input line 7.
-(pdftex.def)             Requested size: 136.57462pt x 145.67987pt.
- [3 <./eule.png>]) [4] (./ThesisProposal.bbl)
+Package natbib Warning: Citation `Gendrot' on page 3 undefined on input line 16
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--26
+
+ []
+
+[3] [4]) (./SystemDevelopment.tex
+
+Package natbib Warning: Citation `Carroll2015' on page 5 undefined on input lin
+e 3.
+
+<intensity_for_paper.png, id=28, 240.9pt x 173.9298pt>
+File: intensity_for_paper.png Graphic file (type png)
+
+<use intensity_for_paper.png>
+Package pdftex.def Info: intensity_for_paper.png used on input line 13.
+(pdftex.def)             Requested size: 289.07854pt x 208.7147pt.
+ [5] <ui2.png, id=34, 741.77126pt x 590.205pt>
+File: ui2.png Graphic file (type png)
+
+<use ui2.png>
+Package pdftex.def Info: ui2.png used on input line 27.
+(pdftex.def)             Requested size: 311.54181pt x 247.8844pt.
+ [6 <./intensity_for_paper.png>]) (./Testing.tex [7 <./ui2.png>]
+[8]) (./Conclusion.tex) [9] [10] (./ThesisProposal.bbl
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ [11])
 
 Package natbib Warning: There were undefined citations.
 
-[5] (./ThesisProposal.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[12] (./ThesisProposal.aux) ) 
 Here is how much of TeX's memory you used:
- 7991 strings out of 493308
- 105398 string characters out of 6137816
- 329481 words of memory out of 5000000
- 11258 multiletter control sequences out of 15000+600000
- 14364 words of font info for 56 fonts, out of 8000000 for 9000
+ 9082 strings out of 493308
+ 118434 string characters out of 6137816
+ 342786 words of memory out of 5000000
+ 12320 multiletter control sequences out of 15000+600000
+ 17630 words of font info for 68 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,5n,38p,3223b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on ThesisProposal.pdf (7 pages, 118143 bytes).
+ 38i,8n,38p,3223b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/tipa/tip
+a10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/tipa/tipa12.pfb>
+
+Output written on ThesisProposal.pdf (13 pages, 276680 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 94 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,15 +1,81 @@
 \begin{thebibliography}{}
 
-\bibitem[Lin and Pantel, 2001]{lin2001}
-Lin, D. and Pantel, P. (2001).
-\newblock {DIRT} - {D}iscovery of {I}nference {R}ules from {T}ext.
-\newblock In {\em Proceedings of the ACM SIGKDD Conference on Knowledge
-  Discovery and Data Mining (KDD-01)}, pages 323--328, San Francisco, CA.
+\bibitem[Boersma and Weenink, 2014]{praat}
+Boersma, P. and Weenink, D. (2014).
+\newblock Praat: doing phonetics by computer.
+\newblock Computer program (Version 5.3.64).
 
-\bibitem[Szpektor et~al., 2004]{szpektor2004}
-Szpektor, I., Tanev, H., Dagan, I., and Coppola, B. (2004).
-\newblock Scaling web-based acquisition of entailment relations.
-\newblock In {\em Conference on Empirical Methods in Natural Language
-  Processing (EMNLP-04)}, pages 41--48, Barcelona, Spain.
+\bibitem[Escudero et~al., 2009]{escudero2009native}
+Escudero, P., Benders, T., and Lipski, S.~C. (2009).
+\newblock Native, non-native and l2 perceptual cue weighting for dutch vowels:
+  The case of dutch, german, and spanish listeners.
+\newblock {\em Journal of Phonetics}, 37(4):452--465.
+
+\bibitem[Flege, 1995]{flege1995second}
+Flege, J.~E. (1995).
+\newblock Second language speech learning: Theory, findings, and problems.
+\newblock {\em Speech Perception and Linguistic Experience: Theoretical and
+  Methodological Issues in Cross-Language Speech Research}, pages 233--272.
+\newblock Timonium, MD: York Press Inc.
+
+\bibitem[Flege et~al., 1999]{flege1999native}
+Flege, J.~E., MacKay, I.~R., and Meador, D. (1999).
+\newblock Native italian speakers’ perception and production of english
+  vowels.
+\newblock {\em The Journal of the Acoustical Society of America},
+  106(5):2973--2987.
+
+\bibitem[Hansen, 2006]{hansen2006computer}
+Hansen, T.~K. (2006).
+\newblock Computer assisted pronunciation training: The four'k's of feedback.
+\newblock {\em Current Developments in Technology-Assisted Education}, pages
+  342--346.
+
+\bibitem[Kommissarchik and Komissarchik, 2000]{kommissarchik2000better}
+Kommissarchik, J. and Komissarchik, E. (2000).
+\newblock Better accent tutor--analysis and visualization of speech prosody.
+\newblock {\em Proceedings of Internation Speech Technology In Language
+  Learning 2000}, pages 86--89.
+
+\bibitem[Neri et~al., 2002]{neri2002pedagogy}
+Neri, A., Cucchiarini, C., Strik, H., and Boves, L. (2002).
+\newblock The pedagogy-technology interface in computer assisted pronunciation
+  training.
+\newblock {\em Computer Assisted Language Learning}, 15(5):441--467.
+
+\bibitem[Pallier et~al., 1997]{pallier1997limit}
+Pallier, C., Bosch, L., and Sebasti{\'a}n-Gall{\'e}s, N. (1997).
+\newblock A limit on behavioral plasticity in speech perception.
+\newblock {\em Cognition}, 64(3):B9--B17.
+
+\bibitem[P{\"a}tzold and Simpson, 1997]{patzold1997acoustic}
+P{\"a}tzold, M. and Simpson, A.~P. (1997).
+\newblock Acoustic analysis of german vowels in the kiel corpus of read speech.
+\newblock {\em Work reports of the Department of Phonetics and Digital Language
+  Processing of the University Kiel}, pages 215--247.
+
+\bibitem[{Python Software Foundation}, 2014]{python}
+{Python Software Foundation} (2014).
+\newblock Python language reference.
+\newblock Computer program (Version 2.7).
+
+\bibitem[Thomson, 2011]{thomson2011computer}
+Thomson, R.~I. (2011).
+\newblock Computer assisted pronunciation training: Targeting second language
+  vowel perception improves pronunciation.
+\newblock {\em Calico Journal}, 28(3):744--765.
+
+\bibitem[Weber et~al., 2014]{weber2014treack}
+Weber, A., Di~Betta, A.~M., and McQueen, J.~M. (2014).
+\newblock Treack or trit: Adaptation to genuine and arbitrary foreign accents
+  by monolingual and bilingual listeners.
+\newblock {\em Journal of Phonetics}, 46:34--51.
+
+\bibitem[Wong et~al., 2011]{wong2011allophonic}
+Wong, K.-H., Lo, W.-K., and Meng, H. (2011).
+\newblock Allophonic variations in visual speech synthesis for corrective
+  feedback in capt.
+\newblock In {\em Acoustics, Speech and Signal Processing (ICASSP), 2011 IEEE
+  International Conference on}, pages 5708--5711. IEEE.
 
 \end{thebibliography}
